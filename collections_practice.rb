@@ -55,9 +55,7 @@ def sum_array(array)
      new = a + 's'  
    else new = a
    end 
-   
      new_array.push(new)
-     
    end
    new_array
  end
