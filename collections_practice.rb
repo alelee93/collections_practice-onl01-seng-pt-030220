@@ -49,9 +49,11 @@ def sum_array(array)
             end
   
  def add_s(array)
-   array.collect_with_index do |a,index|
-     a + 's' if index != 1
-     array
+   new_array = []
+   array.each_with_index do |a,index|
+     new = a + 's' if index != 1
+     new_array.push(new)
+     new_array
    end
    
  end
