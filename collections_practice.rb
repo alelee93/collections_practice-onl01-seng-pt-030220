@@ -41,7 +41,7 @@ def sum_array(array)
   sum = 0
   array.each do |a| sum += a if 
      (2..(a - 1)).each do |n|
-                return false if num % n == 0
+                return false if a % n == 0
                 end
               end
               true
