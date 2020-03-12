@@ -53,8 +53,8 @@ def sum_array(array)
    array.each_with_index do |a,index|
      new = a + 's' if index != 1
      new_array.push(new)
-     new_array
+     
    end
-   
+   new_array
  end
 
