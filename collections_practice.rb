@@ -43,6 +43,9 @@ def sum_array(array)
      (2..(num - 1)).each do |n|
                 return false if num % n == 0
                 end
+              end
+              true
+            end
   
  #array_to_sum = array.select do |num|
                # (2..(num - 1)).each do |n|
