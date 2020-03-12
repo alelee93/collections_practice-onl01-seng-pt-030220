@@ -51,7 +51,7 @@ def sum_array(array)
  def add_s(array)
    new_array = []
    array.each_with_index do |a,index|
-     new = a + 's' if index != 1
+     new = a + 's' if index != 1 else a end
      new_array.push(new)
      
    end
