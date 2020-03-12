@@ -38,7 +38,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  
+  sum = 0
+  array.each do |a| 
+    if 
   
  #array_to_sum = array.select do |num|
                # (2..(num - 1)).each do |n|
