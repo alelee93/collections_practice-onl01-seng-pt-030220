@@ -38,14 +38,16 @@ def find_a(array)
 end
 
 def sum_array(array)
- array_to_sum = array.select do |num|
-                (2..(num - 1)).each do |n|
-                 return false if num % n == 0
-                 end
-                 true
-                 end
-                end 
- (array_to_sum[0]..array_to_sum[-1]).inject {|sum,n| sum + n}
+  
+  
+ #array_to_sum = array.select do |num|
+               # (2..(num - 1)).each do |n|
+               #  return false if num % n == 0
+                # end
+               #  true
+               #  end
+             #   end 
+# (array_to_sum[0]..array_to_sum[-1]).inject {|sum,n| sum + n}
 end
 
 
