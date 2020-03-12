@@ -45,6 +45,7 @@ def sum_array(array)
                 end
               end
               true
+              sum
             end
   
  #array_to_sum = array.select do |num|
@@ -55,6 +56,6 @@ def sum_array(array)
                #  end
              #   end 
 # (array_to_sum[0]..array_to_sum[-1]).inject {|sum,n| sum + n}
-end
+# end
 
 
